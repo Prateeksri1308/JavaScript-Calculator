@@ -52,7 +52,7 @@ A responsive and fully functional **calculator app** built using **HTML**, **CSS
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/js-calculator.git
+   git clone https://github.com/Prateeksri1308/JavaScript-Calculator.git
    ```
 
 2. **Open the project**:
