@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap" rel="stylesheet">
+</head>
+<body>
+    <span id="heading" class="manufacturing-consent-regular">Calculator</span>
+    <div class="container">
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="inputBox" readonly>
+        </div>
+        <div class="keys">
+            <button onclick="clearDisplay()"  id="logics-Ac">AC</button>
+            <button onclick="squareRoot()" id="logics">√x</button>
+            <button onclick="percentage()" id="logics">%</button>
+            <button onclick="appendOperator('/')" id="operators">÷</button>
+            <button onclick="appendValue('7')">7</button>
+            <button onclick="appendValue('8')">8</button>
+            <button onclick="appendValue('9')">9</button>
+            <button onclick="appendOperator('*')" id="operators">x</button>
+            <button onclick="appendValue('4')">4</button>
+            <button onclick="appendValue('5')">5</button>
+            <button onclick="appendValue('6')">6</button>
+            <button onclick="appendOperator('-')" id="operators">-</button>
+            <button onclick="appendValue('1')">1</button>
+            <button onclick="appendValue('2')">2</button>
+            <button onclick="appendValue('3')">3</button>
+            <button onclick="appendOperator('+')" id="operators">+</button>
+            <button onclick="appendValue('0')">0</button>
+            <button onclick="dot()">.</button>
+            <button onclick="sign()">+/-</button>
+            <button onclick="calculate()" id="operators">=</button>
+        </div>
+        </div>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

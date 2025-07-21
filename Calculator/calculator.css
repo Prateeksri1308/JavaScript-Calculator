@@ -1,0 +1,142 @@
+*{
+margin: 0;
+padding: 0;
+}
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: none;
+}
+/*  #heading{
+     bottom: 500px;
+   font-size: xx-large;
+   text-align: center;
+   display: none;
+} */
+body{
+    height: auto;
+    background-color: #505153;
+    background: linear-gradient(90deg, #0000 , #14213D);
+    
+}
+/* .container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+} */
+
+.calculator{
+    height: 71vh;
+    max-height: 90vh;
+    width: 50vh;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* transform: translate(150%, 15%); */
+    padding: .2rem;
+    border-radius: 1rem;
+    border: 1px solid #505153;
+    box-shadow: 0 0 1 rgba(0 , 0 , 0 , 0.3);
+}
+.display{
+    top: 4%;
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+}
+.keys{
+    top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+    position: absolute;
+    gap: .7rem;
+
+}
+button{
+    position: relative;
+    height: 4.5rem;
+    width: 4.5rem;
+    border: none;
+    border: 1px solid #14213D;
+    border-radius: 1rem;
+    font-size: xx-large;
+    font-weight: bold;
+    box-shadow: 0 0 1 rgba(0,0,0,0.3);
+}
+button:active{
+    transform: scale(0.99);
+}
+
+input{
+    border-radius: .2rem;
+    border: 1px solid #505153;
+    height: 4rem;
+    width: 20rem;
+    background: linear-gradient(45deg, #ffff, #f5f3f4);
+    font-size: xx-large;
+    text-align: right;
+    /* max-width: 1000rem; */
+    /* color: #fff; */
+}
+#operators{
+    background: #FCA311;
+}
+#logics, #logics-Ac{
+    background-color: #d9d9d9;
+}
+body {
+  height: 100vh;
+  background-color: #505153;
+  background: linear-gradient(90deg, #0000, #14213D);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .calculator {
+    /* top: 4rem; */
+    width: 99vw;
+    height: 45vh; /* keep same height */
+    max-height: 50vh;
+    transform: none;
+    padding: 1rem;
+    max-width: 200px;
+  }
+  input {
+    width: 80%;
+    font-size: 1.5rem;
+    height: 3.5rem;
+  }
+
+  .keys {
+    gap: 0.2rem;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+  }
+
+  #heading {
+    /* font-size: 1.5rem; */
+  }
+  body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 50px;
+  }
+}
