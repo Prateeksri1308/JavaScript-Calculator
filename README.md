@@ -65,8 +65,8 @@ A responsive and fully functional **calculator app** built using **HTML**, **CSS
 ## 📂 Folder Structure
 
 ```
-calculator/
-├── calculator.html
+JavaScript-Calculator /
+├── index.html
 ├── calculator.css
 ├── calculator.js
 └── README.md
